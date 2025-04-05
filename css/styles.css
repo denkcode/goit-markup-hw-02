@@ -41,11 +41,6 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-    color: #404bbf;
-}
-
 .contacts {
     font-style: normal;
 }
@@ -60,7 +55,7 @@ color: #434455;
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
-.vontacts-link:focus {
+.contacts-link:focus {
     color: #404bbf;
 }
 
@@ -87,6 +82,11 @@ background-color: #4d5ae5;
 cursor: pointer;
 }
 
+.btn:focus,
+.btn:hover {
+    background-color: #404bbf;
+}
+
 .title-advantages {
 font-weight: 500;
 font-size: 20px;
@@ -108,11 +108,13 @@ color: #434455;
 }
 
 .title-team {
+font-weight: 500;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+text-transform: capitalize;
 }
 
 .team-item {
@@ -136,11 +138,13 @@ color: #434455;
 }
 
 .title-portfolio {
+font-weight: 500;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+text-transform: capitalize;
 }
 
 .portfolio-item {
@@ -164,4 +168,12 @@ color: #434455;
 
 .page-footer {
     background-color: #2e2f42;
+}
+
+.footer-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
 }
